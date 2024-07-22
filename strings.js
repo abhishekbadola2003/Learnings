@@ -16,6 +16,16 @@ let namee = "hello world";
 // const node = ' this is nodejs';
 // console.log(namee.concat(node));
 
-//remove whitespaces
-const ok = "    Hello    World    ";
-console.log(ok.trim());
+// //remove whitespaces
+// const ok = "    Hello    World    ";
+// console.log(ok.trim());
+
+console.log(namee.length);
+
+let fruits = ['apple','banana','mango'];
+
+fruits.push('orange');
+console.log(fruits);
+
+fruits.unshift('papaya');
+console.log(fruits);
