@@ -1,10 +1,13 @@
+const { log } = require("console");
+const { LOADIPHLPAPI } = require("dns/promises");
+
 const person = {
   firstname: "Abhishek",
   lastname: "Badola",
   role: "js developer",
   Age: 21,
   isemployed: true,
-  sayhello: (){
+  sayhello: function(){
     // let that = this;
     // console.log("HELLO, My name is : ", that.firstname);
     console.log("HELLO, My name is : ", person.firstname);
