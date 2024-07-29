@@ -18,9 +18,3 @@ fruits.forEach((element)=>{
 let name='ABHI';
 let arr=Array.from(name);
 console.log(arr);
-
-// create an array which will double the calue if exisiting array 
-let abc=[4,8,1,6]
-let x = abc*2;
-let xyz=Array.from(x)
-console.log(xyz);
