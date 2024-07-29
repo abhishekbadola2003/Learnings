@@ -15,3 +15,5 @@ const car3 = new car("toyota", "hilux", 2024);
 console.log(car1);
 console.log(`you can drive ${car1.carbrand}`);
 console.log(car1.printname());
+
+ 
