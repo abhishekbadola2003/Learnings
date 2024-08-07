@@ -1,0 +1,3 @@
+db.students.insertone(
+    { Name : "Abhi" , Age : 21}
+)
